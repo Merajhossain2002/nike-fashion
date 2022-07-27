@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0px;
   padding: 0px;
 }
@@ -26,9 +26,19 @@ body{
   color: white;
   background: linear-gradient(180deg, #3d4ff3 0%, #3543bc 100%);
 }
-.card-width{
+.card-width {
   width: 50%;
 }
-.card-items{
-  height: 8rem;
+@media screen and (max-width: 546px) {
+  .card-width {
+    width: 100%;
+  }
+}
+.card-items {
+  width: 35rem;
+}
+@media screen and (max-width: 546px) {
+  .card-items {
+    width: 100%;
+  }
 }
