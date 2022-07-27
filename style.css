@@ -1,0 +1,34 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.bg-color-1 {
+  background-color: #fff9f4;
+}
+.logo {
+  width: 300px;
+  height: auto;
+}
+@media screen and (max-width: 576px) {
+  .logo {
+    width: 200px;
+  }
+}
+.heading-color-1 {
+  color: #fa804c;
+}
+.heading-color-2 {
+  color: #363958;
+}
+.primary-btn {
+  width: 11rem;
+  height: 3.8rem;
+  color: white;
+  background: linear-gradient(180deg, #3d4ff3 0%, #3543bc 100%);
+}
+.card-width{
+  width: 50%;
+}
+.card-items{
+  height: 8rem;
+}
